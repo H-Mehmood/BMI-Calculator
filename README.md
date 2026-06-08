@@ -1,16 +1,88 @@
-# React + Vite
+# BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple BMI (Body Mass Index) calculator built with React and Vite. Enter your weight and height to calculate your BMI and see a basic interpretation of the result.
 
-Currently, two official plugins are available:
+This repository is a React project created with Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Calculate BMI from weight and height
+- Support for metric units (kg, m) and imperial units (lbs, in)
+- Clear, responsive UI using React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Demo
 
-## Expanding the ESLint configuration
+Add screenshots or a short GIF of the app UI in the `public/` or `src/assets/` folder and reference them here.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/H-Mehmood/BMI-Calculator.git
+cd BMI-Calculator
+npm install
+```
+
+## Development
+
+Start the dev server with Vite:
+
+```bash
+npm run dev
+```
+
+Open your browser to the address shown in the terminal (typically `http://localhost:5173`).
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+Serve the production build locally:
+
+```bash
+npm run preview
+```
+
+## Usage
+
+1. Enter your weight and height into the input fields.
+2. Choose the unit system (Metric or Imperial) if available.
+3. Click the Calculate button to see your BMI and a short interpretation.
+
+BMI interpretation (general guideline):
+
+- Underweight: BMI < 25
+- Healthy weight: 25 - 30
+- Overweight: > 30
+
+## Project Structure
+
+- `src/` — React source files
+  - `App.jsx` — main app component
+  - `main.jsx` — app entry
+  - `assets/` — images and static assets
+- `public/` — static public files
+- `index.html` — app HTML template
+
+## Tech Stack
+
+- React
+- Vite
+- CSS (plain or your preferred preprocessor)
+
+## Contributing
+
+Contributions are welcome. Open an issue or submit a pull request with a clear description of your changes.
+
+## License
+
+This project is provided under the terms of the MIT License. See the `LICENSE` file for details.
+
+---
+
+If you'd like, I can add screenshots, a short usage GIF, or update the `package.json` scripts. Tell me which you'd prefer next.
